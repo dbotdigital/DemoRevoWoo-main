@@ -1,0 +1,116 @@
+{
+  "project_info": {
+    "project_number": "308808190178",
+    "project_id": "bigleague-ecommerce",
+    "storage_bucket": "bigleague-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308808190178:android:bddb561ce95b985e84b6bb",
+        "android_client_info": {
+          "package_name": "com.bigleague.ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308808190178-gvu5q82ivnt9h102jlhb43h8bc3esm37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecom",
+            "certificate_hash": "4ef907dec5a18b91ae43f626627b6994ab8267cb"
+          }
+        },
+        {
+          "client_id": "308808190178-ijdc1ja3a4dm4g321tmnerrbimm8cd0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecom",
+            "certificate_hash": "3af65f87d9238df095beecd437f9557244c9fcc7"
+          }
+        },
+        {
+          "client_id": "308808190178-2qsad1nc5dnso81q00rdbjcu2k81e512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3XckJGH-iGhb_6ZRunSfUBPPTDnScM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308808190178-2qsad1nc5dnso81q00rdbjcu2k81e512.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308808190178:android:97c5191c239ef6b184b6bb",
+        "android_client_info": {
+          "package_name": "com.bigleague.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308808190178-38l4fail5ipv4klosictnped7pqgr9t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecommerce",
+            "certificate_hash": "3af65f87d9238df095beecd437f9557244c9fcc7"
+          }
+        },
+        {
+          "client_id": "308808190178-9aucdn57aei35j95fjivkt2vpeukipv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecommerce",
+            "certificate_hash": "4ef907dec5a18b91ae43f626627b6994ab8267cb"
+          }
+        },
+        {
+          "client_id": "308808190178-a0vboo3nrjp2aggv6mt9cljscp2nfldq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecommerce",
+            "certificate_hash": "b38893383b0066dec7af73e861a93b674b84a135"
+          }
+        },
+        {
+          "client_id": "308808190178-va1skn952165tfvbc67v2jepngmmsg4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigleague.ecommerce",
+            "certificate_hash": "cffef52934a9cea3cfa98e2200654ce7a903dc56"
+          }
+        },
+        {
+          "client_id": "308808190178-2qsad1nc5dnso81q00rdbjcu2k81e512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3XckJGH-iGhb_6ZRunSfUBPPTDnScM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308808190178-2qsad1nc5dnso81q00rdbjcu2k81e512.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
