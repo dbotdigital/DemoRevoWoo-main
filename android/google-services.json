@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "865287329559",
+    "project_id": "smartdeal-shops",
+    "storage_bucket": "smartdeal-shops.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865287329559:android:91b11f2336f9a9c81a0952",
+        "android_client_info": {
+          "package_name": "com.smart.deal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865287329559-cj74mqv7rgl3jqard8gdlt4u2eac0co9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smart.deal",
+            "certificate_hash": "3af65f87d9238df095beecd437f9557244c9fcc7"
+          }
+        },
+        {
+          "client_id": "865287329559-us8atf0u80v1gn3458snvs8cohdqrltj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smart.deal",
+            "certificate_hash": "4ef907dec5a18b91ae43f626627b6994ab8267cb"
+          }
+        },
+        {
+          "client_id": "865287329559-0n5vofhonka7fl3qsa0qb8ocmsa8q9e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM3jVIlvUYbIUacQbboxtxTK3d8J71I4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865287329559-0n5vofhonka7fl3qsa0qb8ocmsa8q9e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
