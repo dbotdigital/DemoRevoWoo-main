@@ -1,4 +1,4 @@
-import 'dart:async';
+//import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
@@ -213,7 +213,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  StreamSubscription? _sub;
+  // StreamSubscription? _sub;
 
   @override
   void initState() {
@@ -311,23 +311,23 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _handleIncomingLinks() {
-    if (!kIsWeb) {
-      _sub = uriLinkStream.listen((Uri? uri) {
-        if (!mounted) return;
-        print('Uri: $uri');
-        DeeplinkConfig().pathUrl(uri!, context, false);
-      }, onError: (Object err) {
-        if (!mounted) return;
-        print('Error: $err');
-      });
-    }
+    // if (!kIsWeb) {
+    //   _sub = uriLinkStream.listen((Uri? uri) {
+    //     if (!mounted) return;
+    //     print('Uri: $uri');
+    //     DeeplinkConfig().pathUrl(uri!, context, false);
+    //   }, onError: (Object err) {
+    //     if (!mounted) return;
+    //     print('Error: $err');
+    //   });
+    // }
   }
 
   @override
   void dispose() {
     didReceiveLocalNotificationSubject.close();
     selectNotificationSubject.close();
-    _sub?.cancel();
+    // _sub?.cancel();
     super.dispose();
   }
 
