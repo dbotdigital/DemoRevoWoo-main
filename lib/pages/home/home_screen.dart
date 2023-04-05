@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nyoba/pages/account/account_screen.dart';
+import 'package:nyoba/pages/services/services.dart';
 import 'package:nyoba/provider/order_provider.dart';
 import 'package:nyoba/services/session.dart';
 import 'package:nyoba/utils/utility.dart';
@@ -329,6 +330,36 @@ class _HomeScreenState extends State<HomeScreen>
                               size: 25.h,
                             ),
                             AppLocalizations.of(context)!.translate('cart')!,
+                            28,
+                            14)),
+                  )),
+
+              Expanded(
+                  flex: 2,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ServicePage()),
+                      );
+                    },
+                    child: Container(
+                        child: navbarItem(
+                            4,
+                            // "images/lobby/cart.png",
+                            // "images/lobby/cartClicked.png",
+                            Icon(
+                              Icons.analytics,
+                              size: 25.h,
+                            ),
+                            Icon(
+                              Icons.analytics_rounded,
+                              size: 25.h,
+                            ),
+                            // AppLocalizations.of(context)!
+                            //     .translate('Services')!,
+                            "services",
                             28,
                             14)),
                   )),

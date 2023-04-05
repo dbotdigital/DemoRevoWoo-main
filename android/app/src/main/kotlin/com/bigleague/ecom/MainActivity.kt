@@ -1,4 +1,4 @@
-package com.bigleague.ecom
+package com.smart.deal
 
 import io.flutter.embedding.android.FlutterActivity
 
