@@ -346,7 +346,7 @@ class _MyAppState extends State<MyApp> {
           navigatorKey: GlobalVariable.navState,
           debugShowCheckedModeBanner: false,
           locale: value.appLocal,
-          title: 'Big League Ecommerce',
+          title: 'SmartDeal Shops',
           routes: <String, WidgetBuilder>{
             'HomeScreen': (BuildContext context) => HomeScreen(),
           },
