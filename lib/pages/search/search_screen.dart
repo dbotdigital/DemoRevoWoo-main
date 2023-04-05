@@ -64,10 +64,8 @@ class _SearchScreenState extends State<SearchScreen> {
             return buildSearchEmpty(
               context,
               searchController.text.isEmpty
-                  ? AppLocalizations.of(context)!
-                  .translate('search_here')
-                  : AppLocalizations.of(context)!
-                  .translate('cant_find_prod'),
+                  ? AppLocalizations.of(context)!.translate('search_here')
+                  : AppLocalizations.of(context)!.translate('cant_find_prod'),
             );
           }
           return Container(
@@ -88,41 +86,41 @@ class _SearchScreenState extends State<SearchScreen> {
       ),
     );
     return Scaffold(
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: Visibility(
-        visible: settingProvider.isBarcodeActive!,
-        child: InkWell(
-          onTap: () {
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => QRScanner()));
-          },
-          child: Container(
-            padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(50), color: primaryColor),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle, color: Colors.white),
-                    child: Container(
-                        height: 30,
-                        padding: EdgeInsets.all(5),
-                        child: Image.asset("images/search/barcode_icon.png"))),
-                SizedBox(
-                  width: 5,
-                ),
-                Text(
-                  "SCAN BARCODE",
-                  style: TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.bold),
-                )
-              ],
-            ),
-          ),
-        ),
-      ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      // floatingActionButton: Visibility(
+      //   visible: settingProvider.isBarcodeActive!,
+      //   child: InkWell(
+      //     onTap: () {
+      //       Navigator.push(
+      //           context, MaterialPageRoute(builder: (context) => QRScanner()));
+      //     },
+      //     child: Container(
+      //       padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+      //       decoration: BoxDecoration(
+      //           borderRadius: BorderRadius.circular(50), color: primaryColor),
+      //       child: Row(
+      //         mainAxisSize: MainAxisSize.min,
+      //         children: [
+      //           Container(
+      //               decoration: BoxDecoration(
+      //                   shape: BoxShape.circle, color: Colors.white),
+      //               child: Container(
+      //                   height: 30,
+      //                   padding: EdgeInsets.all(5),
+      //                   child: Image.asset("images/search/barcode_icon.png"))),
+      //           SizedBox(
+      //             width: 5,
+      //           ),
+      //           Text(
+      //             "SCAN BARCODE",
+      //             style: TextStyle(
+      //                 color: Colors.white, fontWeight: FontWeight.bold),
+      //           )
+      //         ],
+      //       ),
+      //     ),
+      //   ),
+      // ),
       appBar: AppBar(
         backgroundColor: Colors.white,
         leading: IconButton(
@@ -164,8 +162,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             ),
                           ),
                           prefixIcon: Icon(Icons.search),
-                          hintText: AppLocalizations.of(context)!
-                              .translate('search'),
+                          hintText:
+                              AppLocalizations.of(context)!.translate('search'),
                           hintStyle: TextStyle(fontSize: responsiveFont(10)),
                         ),
                       ),
